@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  margin: 0;
+}
+h2 {
+  text-align: center;
+}
+.banner {
+  background-image: linear-gradient(105deg, rgb(0 0 0 / 52%) 51%, rgba(0,0,0,0.2777485994397759) 100%), url(../images/duna.jpeg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1, .banner h2 {
+  color: white;
+}
+
+.banner h2 {
+  padding: 16px;
+}
+
+.btn-red {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 24px;
+  border-radius: 7px;
+  display: block;
+  width: 88px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 48px;
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card {
+  background-color: black;
+  padding: 16px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.card img {
+  width: 300px;
+}
+
+.yellow {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.yellow {
+  background-color: black;
+  padding: 16px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.yellow img {
+  width: 500px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 32px;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.navbar {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 3px 3px 3px #00000069;
+  z-index: 999;
+  
+}
+
+.navbar img {
+  margin: 16px;
+}
+
+.nav-links {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
